@@ -1,0 +1,109 @@
+4 раздел.
+
+Задание №1.
+int n=5;
+int [] a = new int[n];
+
+for(int i=0;i<n;i++){
+    a[i] = i*(i+1);
+    System.out.println(a[i]);
+ответ: 
+0
+2
+6
+12
+20
+
+ 
+Задание №2.
+
+int n=5;
+int [] a = new int[n];
+int x = 8;
+for(int i=0;i<n;i++){
+    a[i] = x%2;
+    System.out.println(a[i]);
+ответ: 
+0
+0
+0
+0
+0
+ 
+Задание №3.
+int n=5;
+int [] a = new int[n];
+
+int x=8;
+for(int i=0;i<n;i++){
+    a[i]=i==0 ? 0: x%i;
+    System.out.println(a[i]);
+ответ: 
+0
+0
+0
+2
+0
+ 
+Задание №4.
+int n=5;
+int [] a = new int[n];
+int x = 8;
+for(int i=0;i<n;i++){
+    x = (int)(90*Math.random()+10);
+    a[i] = x/10;
+    System.out.println(a[i]);
+ответ: 
+3
+3
+6
+8
+8
+ 
+Задание №6.
+int n=5;
+int [] a = new int[n];
+int x = (int) (Math.random()*99+1);
+for(int i=0;i<n;i++){
+    a[i] = x;
+    x=x+x%10;
+    System.out.println(a[i]);
+ответ: 
+56
+62
+64
+68
+76
+
+ 
+Задание №7.
+int n=5;
+int [] a = new int[n];
+int x = (int) (Math.random()*100);
+for(int i=0;i<n;i++){
+    a[i] = x;
+    x=(int)(x+Math.random()*100);
+    System.out.println(a[i]);
+ответ: 
+40
+110
+141
+237
+267
+
+ 
+Задание №8.
+int n=5;
+int [] a = new int[n];
+int x = 11;
+for(int i=0;i<n;i++){
+    a[i] = x;
+    a[n-1-i]=a[i];
+    System.out.println(a[i]);
+ответ: 
+12
+12
+12
+12
+12
+ 
